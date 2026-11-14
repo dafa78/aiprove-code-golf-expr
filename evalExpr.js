@@ -1,0 +1,1 @@
+exports.evalExpr=s=>Function('return '+s.replace(/--/g,'+'))()
